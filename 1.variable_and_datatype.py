@@ -17,3 +17,9 @@ print('Hello World')
 #print :- use to print value 
 val=input("Enter Your Name :- ")
 print("Your Name :- ",val)
+
+# cases :- likhane ka tarika 
+# StudentName="shubham"   #pascal case
+# studentName="shubham"   #camel case
+# student_Name="shubham"   #snake case
+
