@@ -32,8 +32,8 @@ print(numbers[1:4])
 
 # Array processing :- Loop ka use karke array ke elements ko process kar sakte hain.
 numbers = array('i', [10, 20, 30, 40])
-for number in numbers:
-    print(number)
+for num in numbers:
+    print(num)
 
 # Array mein element add karna
 # append() :- Array ke end mein ek element add karta hai.
@@ -87,9 +87,9 @@ print("Position:", numbers.index(value))
 numbers = array('i', [40, 10, 30, 20, 50])
 n = len(numbers)
 for i in range(n):
-for j in range(0, n - i - 1):
-    if numbers[j] > numbers[j + 1]:
-        numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]
+    for j in range(0, n - i - 1):
+        if numbers[j] > numbers[j + 1]:
+            numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]
 print(numbers)
 
 # Bubble sort ke baad array ascending order mein aa jayega.

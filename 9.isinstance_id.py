@@ -14,9 +14,9 @@ a = 10
 b = a
 print(id(a))
 print(id(b))
-
 # Dono names same object ko refer kar sakte hain.
 a is b  #True ho sakta hai.
+
 a = [10, 20]
 b = [10, 20]
 print(a == b)

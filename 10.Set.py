@@ -6,12 +6,9 @@ print(numbers)
 # Duplicate values automatically remove ho jaati hain.
 numbers = {10, 20, 20, 30, 30, 40}
 print(numbers)
-# Note :- Set indexing support nahi karta.
-# Duplicates allowed nahi.
-# Set ko modify kar sakte ho.
+# Note :- Set indexing support nahi karta. Duplicates allowed nahi. Set ko modify kar sakte ho.
 # Normally tum set mein ye rakh sakte ho :- int, float, str, tuple, bool
-# Lekin mutable objects jaise :- list, dict, set
-# set ke elements nahi ban sakte.
+# Lekin mutable objects jaise :- list, dict, set set ke elements nahi ban sakte.
 
 # Set create kaise karein?
 s = {10, 20, 30}
@@ -50,8 +47,7 @@ numbers = {10, 20, 30}
 numbers.remove(20)
 print(numbers)
 
-# discard() :- Set se element remove karta hai.
-# Element nahi mila to error nahi deta.
+# discard() :- Set se element remove karta hai. Element nahi mila to error nahi deta.
 numbers = {10, 20, 30}
 numbers.discard(20)
 print(numbers)
@@ -64,8 +60,7 @@ numbers = {10, 20, 30}
 x = numbers.pop()
 print(x)
 print(numbers)
-# Set unordered hai,
-# isliye kaunsa element remove hoga ye assume nahi karna.
+# Set unordered hai,isliye kaunsa element remove hoga ye assume nahi karna.
 
 # clear() :- Set ke saare elements remove karta hai.
 numbers = {10, 20, 30}

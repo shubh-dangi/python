@@ -96,7 +96,6 @@ student("Shubham", 23)
 # *args :- Multiple positional arguments receive karta hai.
 def numbers(*args):
     print(args)
-
 numbers(10, 20, 30, 40)
 # args ke andar values tuple ke form mein aati hain.
 
@@ -104,13 +103,11 @@ numbers(10, 20, 30, 40)
 def numbers(*args):
     for number in args:
         print(number)
-
 numbers(10, 20, 30, 40)
 
 # **kwargs :- **kwargs multiple keyword arguments receive karta hai.
 def student(**kwargs):
     print(kwargs)
-
 student(name="Shubham", age=23, course="BCA")
 # kwargs ke andar values dictionary ke form mein aati hain.
 
@@ -118,9 +115,7 @@ student(name="Shubham", age=23, course="BCA")
 def student(**kwargs):
     for key, value in kwargs.items():
         print(key, value)
-
 student(name="Shubham", age=23, course="BCA")
-
 
 # PASS BY OBJECT REFERENCE :- Python mein arguments object reference ke through function ko pass hote hain.
 # Mutable object ko function ke andar modify karne par
