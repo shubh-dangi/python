@@ -25,8 +25,7 @@ name = None
 if name is None:
     print("Name is not available")
 
-# 6. Function mein None
-# Ye None ka bahut important use hai. Agar function koi value explicitly return nahi karta, to Python generally None return karta hai.
+# 6. Function mein None Ye None ka bahut important use hai. Agar function koi value explicitly return nahi karta, to Python generally None return karta hai.
 def hello():
     print("Hello")
 result = hello()
