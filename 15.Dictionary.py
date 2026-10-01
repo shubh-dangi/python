@@ -1,5 +1,4 @@
 # Dictionary :- Python mein Dictionary ek collection hota hai jisme data Key : Value pair mein store hota hai.
-
 # Dictionary:
 # 1. Key : Value pair mein data store karti hai
 # 2. Keys unique hoti hain

@@ -1,5 +1,4 @@
 # Tuple :- Python mein Tuple ek ordered collection hota hai jisme hum multiple values store kar sakte hain.
-
 # Tuple:
 # 1. Ordered hota hai
 # 2. Immutable hota hai
