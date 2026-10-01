@@ -7,7 +7,6 @@
 # 4. Different data types ke elements store kar sakti hai
 # List ko [] square brackets se create kiya jata hai.
 
-
 # 1. Creating a List :-
 numbers = [10, 20, 30, 40, 50]
 print(numbers)
@@ -17,11 +16,9 @@ print(numbers)
 data = [10, "Shubham", 20.5, True]
 print(data)
 
-
 # Empty List :-
 empty_list = []
 print(empty_list)
-
 
 # 2. Accessing List Elements
 # List ke elements ko index number se access karte hain. Index hamesha 0 se start hota hai.
@@ -37,7 +34,6 @@ numbers = [10, 20, 30, 40, 50]
 print(numbers[-1])
 print(numbers[-2])
 print(numbers[-3])
-
 
 # 4. List using range() :- range() ki help se list create kar sakte hain.
 numbers = list(range(1, 11))
@@ -73,7 +69,6 @@ print(result)
 numbers = [10, 20, 30, 40, 50]
 print(30 in numbers)
 print(100 in numbers)
-
 
 # not in :- Check karta hai ki element List mein present nahi hai.
 print(100 not in numbers)
