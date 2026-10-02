@@ -7,7 +7,6 @@ print(a / b)    # Ye ZeroDivisionError dega.
 
 # try :- try block mein wo code likhte hain jisme exception aa sakta hai.
 # except :- except block exception aane par execute hota hai.
-
 # Example :-
 try:
     a = 10
@@ -18,7 +17,6 @@ except:
     print("Error Occurred")
 
 # Specific Exception :- Hum particular type ke exception ko bhi handle kar sakte hain.
-
 try:
     a = 10
     b = 0
@@ -28,7 +26,6 @@ except ZeroDivisionError:
     print("Cannot divide by zero")
 
 # ValueError :- Jab wrong type/value ki input di jati hai tab ValueError aa sakta hai.
-
 try:
     number = int(input("Enter Number :- "))
     print(number)
@@ -37,7 +34,6 @@ except ValueError:
     print("Please Enter Number Only")
 
 # TypeError :- Jab incompatible data types ke saath operation kiya jata hai.
-
 try:
     a = 10
     b = "20"
@@ -132,7 +128,7 @@ try:
     
 except NameError:
     print("Variable Is Not Defined")
-    
+
 # FileNotFoundError :- Jab file exist nahi karti aur usko open karne ki koshish karte hain.
 try:
     file = open("abc.txt", "r")

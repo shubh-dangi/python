@@ -59,8 +59,7 @@ class Student:
 
 student1 = Student()
 student1.display()
-# Jab student1.display() call hota hai,
-# tab self student1 object ko represent karta hai.
+# Jab student1.display() call hota hai, tab self student1 object ko represent karta hai.
 
 
 # 7. __init__() Method :- Ye special method hai.
@@ -140,8 +139,7 @@ print(student1.name)
 print(student1.college)
 print(student2.name)
 print(student2.college)
-# college class variable hai.
-# name instance variable hai.
+# college class variable hai. name instance variable hai.
 
 # 13. Instance Variable vs Class Variable
 class Student:

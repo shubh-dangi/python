@@ -64,8 +64,7 @@ student1.display_student()
 # Child class parent class ke constructor ko use kar sakti hai.
 
 
-# 5. super()
-# super() :- Parent class ke method ya constructor ko child class ke andar call karne ke liye use hota hai.
+# 5. super() :- Parent class ke method ya constructor ko child class ke andar call karne ke liye use hota hai.
 class Person:
     def __init__(self, name):
         self.name = name
